@@ -1,0 +1,567 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>&#x1F48D; Anjana & Ashin | Kerala Wedding Invitation</title>
+  <meta name="description" content="You are cordially invited to celebrate the Royal Kerala wedding of Anjana & Ashin. A celebration of love, tradition, and timeless elegance.">
+  <meta property="og:title" content="Anjana & Ashin | Kerala Wedding Invitation">
+  <meta property="og:description" content="Royal Kerala Heritage Wedding â€” Join us to celebrate the wedding of Anjana & Ashin on 30 August 2026">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="preview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Anjana & Ashin | Kerala Wedding Invitation">
+  <meta name="twitter:description" content="Royal Kerala Heritage Wedding â€” Join us to celebrate the wedding of Anjana & Ashin">
+  <meta name="twitter:image" content="preview.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F48D;</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Great+Vibes&family=Poppins:wght@300;400;500&family=Noto+Sans+Malayalam:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=20260716240500">
+</head>
+<body>
+
+  <!-- ===== GLOBAL DECORATIVE LAYERS ===== -->
+  <div class="luxury-pattern-overlay"></div>
+  <div class="floral-watermarks">
+    <div class="lotus-watermark lotus-watermark-1"></div>
+    <div class="lotus-watermark lotus-watermark-2"></div>
+    <div class="lotus-watermark lotus-watermark-3"></div>
+    <div class="peony-watermark peony-watermark-1"></div>
+    <div class="peony-watermark peony-watermark-2"></div>
+    <div class="paisley-watermark paisley-watermark-1"></div>
+    <div class="paisley-watermark paisley-watermark-2"></div>
+    <div class="kerala-floral-watermark kerala-floral-watermark-1"></div>
+    <div class="kerala-floral-watermark kerala-floral-watermark-2"></div>
+    <div class="peacock-watermark peacock-watermark-1"></div>
+    <div class="peacock-watermark peacock-watermark-2"></div>
+  </div>
+  <div class="filigree-corners">
+    <div class="filigree-corner filigree-corner-tl"></div>
+    <div class="filigree-corner filigree-corner-tr"></div>
+    <div class="filigree-corner filigree-corner-bl"></div>
+    <div class="filigree-corner filigree-corner-br"></div>
+  </div>
+  <div class="sparkle-particles">
+    <div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div><div class="sparkle-particle"></div>
+  </div>
+  <div class="bokeh-lights">
+    <div class="bokeh-light"></div><div class="bokeh-light"></div><div class="bokeh-light"></div><div class="bokeh-light"></div><div class="bokeh-light"></div><div class="bokeh-light"></div><div class="bokeh-light"></div><div class="bokeh-light"></div>
+  </div>
+
+  <!-- ===== FLOATING DECORATIONS ===== -->
+  <div id="jasmine-container" class="jasmine-container"></div>
+  <div id="golden-particles" class="golden-particles"></div>
+
+  <!-- ===== CINEMATIC OPENING ===== -->
+  <div id="cinematic-opening" class="cinematic-opening">
+    <div class="cin-bg-particles" id="cin-bg-particles"></div>
+
+    <div class="cin-scene" id="cin-scene">
+      <!-- Couple Image with Animation -->
+      <div class="cin-image-wrapper" id="cin-image-wrapper">
+        <div class="cin-image-glow"></div>
+        <div class="cin-image-frame">
+          <div class="cin-image-border"></div>
+          <img src="couple-image.png" alt="Anjana & Ashin" class="cin-couple-img"/>
+          <div class="cin-image-sparkles" id="cin-image-sparkles"></div>
+        </div>
+      </div>
+
+      <!-- Floating petals -->
+      <div class="cin-petals-container" id="cin-petals-container"></div>
+    </div>
+
+    <!-- Text overlays -->
+    <div class="cin-texts" id="cin-texts">
+      <p class="cin-line cin-families" id="cin-families">Together with Our Families</p>
+      <p class="cin-line cin-invite" id="cin-invite">Invite You To Celebrate</p>
+      <p class="cin-line cin-wedding-of" id="cin-wedding-of">The Wedding Of</p>
+      <div class="cin-names" id="cin-names">
+        <span class="cin-bride-name">Anjana</span>
+        <span class="cin-heart" id="cin-heart">&#9825;</span>
+        <span class="cin-groom-name">Ashin</span>
+      </div>
+      <button class="cin-btn-open" id="cin-btn-open"><span>Open Invitation</span></button>
+    </div>
+
+    <!-- Music Toggle inside cinematic -->
+    <button id="music-toggle" class="music-toggle" aria-label="Toggle music">
+      <svg id="music-icon" class="music-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M9 18V5l12-2v13"/>
+        <circle cx="6" cy="18" r="3"/>
+        <circle cx="18" cy="16" r="3"/>
+      </svg>
+      <span id="music-status" class="music-status">Play</span>
+    </button>
+  </div>
+
+  <!-- ===== SCROLL PROGRESS ===== -->
+  <div id="scroll-progress" class="scroll-progress"></div>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main id="main-content" class="main-content hidden">
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero" class="section hero-section">
+      <!-- Decorative corners -->
+      <div class="corner-decor corner-tl"></div>
+      <div class="corner-decor corner-tr"></div>
+      <div class="corner-decor corner-bl"></div>
+      <div class="corner-decor corner-br"></div>
+      <!-- Palm leaves -->
+      <div class="palm-leaf palm-left">
+        <svg viewBox="0 0 100 200" fill="none" stroke="rgba(200,160,77,0.12)" stroke-width="0.8">
+          <path d="M50 200 Q30 150 10 100 Q5 80 15 60 Q25 40 50 20"/>
+          <path d="M50 200 Q40 140 35 80 Q33 60 40 45 Q45 30 50 20"/>
+          <path d="M50 200 Q60 140 65 80 Q67 60 60 45 Q55 30 50 20"/>
+          <path d="M50 200 Q70 150 90 100 Q95 80 85 60 Q75 40 50 20"/>
+        </svg>
+      </div>
+      <div class="palm-leaf palm-right">
+        <svg viewBox="0 0 100 200" fill="none" stroke="rgba(200,160,77,0.12)" stroke-width="0.8">
+          <path d="M50 200 Q30 150 10 100 Q5 80 15 60 Q25 40 50 20"/>
+          <path d="M50 200 Q40 140 35 80 Q33 60 40 45 Q45 30 50 20"/>
+          <path d="M50 200 Q60 140 65 80 Q67 60 60 45 Q55 30 50 20"/>
+          <path d="M50 200 Q70 150 90 100 Q95 80 85 60 Q75 40 50 20"/>
+        </svg>
+      </div>
+      <!-- Hero background decorations -->
+      <div class="section-bg-decor">
+        <div class="bg-mandala bg-mandala-1"></div>
+        <div class="corner-floral corner-floral-tl"></div>
+        <div class="corner-floral corner-floral-tr"></div>
+        <div class="corner-floral corner-floral-bl"></div>
+        <div class="corner-floral corner-floral-br"></div>
+        <div class="bg-peacock bg-peacock-1"></div>
+        <div class="bg-lotus-outline"></div>
+      </div>
+      <div class="section-glow"></div>
+
+      <div class="hero-content">
+        <div id="hero-petals" class="hero-petals"></div>
+
+        <div class="palace-arch-watermark"></div>
+
+        <div class="hero-floral-icon hfi-1">&#x2740;</div>
+        <div class="hero-floral-icon hfi-2">&#x2740;</div>
+        <div class="hero-floral-icon hfi-3">&#x25C8;</div>
+        <div class="hero-floral-icon hfi-4">&#x25C8;</div>
+
+        <div class="ornamental-divider hero-orn reveal" data-animation="fadeUp">
+          <span class="od-line"></span>
+          <span class="od-lotus">&#x2740;</span>
+          <span class="od-diamond">&#x25C6;</span>
+          <span class="od-lotus">&#x2740;</span>
+          <span class="od-line"></span>
+        </div>
+
+        <div class="monogram reveal" data-animation="zoomIn">
+          <div class="monogram-outer">
+            <div class="monogram-inner">
+              <span class="monogram-m">A</span>
+              <span class="monogram-amp">&amp;</span>
+              <span class="monogram-a">A</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-names reveal" data-animation="fadeUp">
+          <h1 class="bride-name">Anjana</h1>
+          <p class="name-malayalam">അഞ്ജന</p>
+          <div class="heart-divider">
+            <span class="hd-line"></span>
+            <span class="hd-lotus">&#x2740;</span>
+            <span class="heart-icon">&#9825;</span>
+            <span class="hd-lotus">&#x2740;</span>
+            <span class="hd-line"></span>
+          </div>
+          <h1 class="groom-name">Ashin</h1>
+          <p class="name-malayalam">അശിൻ</p>
+        </div>
+
+        <div class="hero-details reveal" data-animation="fadeUp" data-delay="200">
+          <div class="kasavu-divider lg">
+            <span class="kd-line"></span>
+            <span class="kd-ornament">&#x2740;</span>
+            <span class="kd-line"></span>
+          </div>
+          <p class="save-the-date reveal" data-animation="fadeUp">Save the Date</p>
+          <p class="wedding-date-text">Sunday, 30th August 2026</p>
+          <p class="wedding-muhurtham-text">Muhurtham: 10.00 AM - 10.45 AM</p>
+        </div>
+
+        <div class="hero-countdown reveal" data-animation="fadeUp" data-delay="400">
+          <div class="hero-countdown-grid">
+            <div class="hero-countdown-card">
+              <span class="hero-countdown-number" id="hero-days">00</span>
+              <span class="hero-countdown-label">Days</span>
+            </div>
+            <div class="hero-countdown-sep">:</div>
+            <div class="hero-countdown-card">
+              <span class="hero-countdown-number" id="hero-hours">00</span>
+              <span class="hero-countdown-label">Hours</span>
+            </div>
+            <div class="hero-countdown-sep">:</div>
+            <div class="hero-countdown-card">
+              <span class="hero-countdown-number" id="hero-minutes">00</span>
+              <span class="hero-countdown-label">Minutes</span>
+            </div>
+            <div class="hero-countdown-sep">:</div>
+            <div class="hero-countdown-card">
+              <span class="hero-countdown-number" id="hero-seconds">00</span>
+              <span class="hero-countdown-label">Seconds</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="ornamental-divider hero-orn reveal" data-animation="fadeUp" data-delay="500">
+          <span class="od-line"></span>
+          <span class="od-lotus">&#x2740;</span>
+          <span class="od-diamond">&#x25C6;</span>
+          <span class="od-lotus">&#x2740;</span>
+          <span class="od-line"></span>
+        </div>
+
+        <div class="scroll-indicator">
+          <div class="scroll-mouse">
+            <div class="scroll-wheel"></div>
+          </div>
+          <span class="scroll-text">Scroll Down</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT THE COUPLE ===== -->
+    <section id="about" class="section about-section">
+      <div class="about-bg-animations">
+        <div class="about-petal"></div>
+        <div class="about-petal"></div>
+        <div class="about-petal"></div>
+        <div class="about-petal"></div>
+        <div class="about-petal"></div>
+        <div class="about-petal"></div>
+        <div class="about-petal"></div>
+        <div class="about-petal"></div>
+        <div class="about-petal"></div>
+        <div class="about-petal"></div>
+        <div class="about-glow-orb"></div>
+        <div class="about-glow-orb"></div>
+        <div class="about-glow-orb"></div>
+      </div>
+      <div class="section-bg-decor">
+        <div class="bg-lotus bg-lotus-1">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-2">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-3">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-4">&#x2740;</div>
+        <div class="bg-paisley bg-paisley-1"></div>
+        <div class="bg-paisley bg-paisley-2"></div>
+        <div class="bg-mandala bg-mandala-1"></div>
+        <div class="bg-lotus-outline" style="top:10%;left:5%;"></div>
+        <div class="bg-lotus-outline" style="bottom:10%;right:5%;"></div>
+        <div class="corner-floral corner-floral-tl"></div>
+        <div class="corner-floral corner-floral-tr"></div>
+        <div class="corner-floral corner-floral-bl"></div>
+        <div class="corner-floral corner-floral-br"></div>
+        <div class="bg-vine bg-vine-left"></div>
+        <div class="bg-vine bg-vine-right"></div>
+        <div class="bg-peacock bg-peacock-1"></div>
+        <div class="bg-geometric"></div>
+      </div>
+      <div class="section-glow"></div>
+      <div class="section-header reveal" data-animation="fadeUp">
+        <div class="kasavu-divider lg">
+          <span class="kd-line"></span>
+          <span class="kd-lotus">&#x2740;</span>
+          <span class="kd-line"></span>
+        </div>
+        <h2 class="section-title">About The Couple</h2>
+        <div class="kasavu-divider lg">
+          <span class="kd-line"></span>
+          <span class="kd-lotus">&#x2740;</span>
+          <span class="kd-line"></span>
+        </div>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass-card reveal" data-animation="fadeUp">
+          <div class="about-photo-frame">
+            <img src="bride-photo.jpeg" alt="Anjana" class="about-photo"/>
+          </div>
+          <h3 class="about-name">Anjana</h3>
+          <p class="about-desc">D/o Shri. P N Gopi & Smt. Sreedevi Gopi</p>
+          <p class="about-family">Pallath house, Edathala</p>
+        </div>
+        <div class="about-divider-vert reveal" data-animation="fadeUp">
+          <div class="adv-line"></div>
+          <div class="adv-heart">&#9825;</div>
+          <div class="adv-line"></div>
+        </div>
+        <div class="about-card glass-card reveal" data-animation="fadeUp" data-delay="200">
+          <div class="about-photo-frame">
+            <img src="groom-photo.jpeg" alt="Ashin" class="about-photo"/>
+          </div>
+          <h3 class="about-name">Ashin</h3>
+          <p class="about-desc">S/o P R Sivaraman & Anitha Sivaraman</p>
+          <p class="about-family">Puthimanakara house, Ollur</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WEDDING DETAILS ===== -->
+    <section id="details" class="section details-section">
+      <div class="section-bg-decor">
+        <div class="bg-lotus bg-lotus-1">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-2">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-3">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-4">&#x2740;</div>
+        <div class="bg-paisley bg-paisley-1"></div>
+        <div class="bg-paisley bg-paisley-2"></div>
+        <div class="bg-mandala bg-mandala-2"></div>
+        <div class="bg-lotus-outline" style="top:15%;right:10%;"></div>
+        <div class="bg-lotus-outline" style="bottom:15%;left:10%;"></div>
+        <div class="corner-floral corner-floral-tl"></div>
+        <div class="corner-floral corner-floral-tr"></div>
+        <div class="corner-floral corner-floral-bl"></div>
+        <div class="corner-floral corner-floral-br"></div>
+        <div class="bg-geometric"></div>
+      </div>
+      <div class="section-glow"></div>
+      <div class="section-header reveal" data-animation="fadeUp">
+        <div class="kasavu-divider lg">
+          <span class="kd-line"></span>
+          <span class="kd-lotus">&#x2740;</span>
+          <span class="kd-line"></span>
+        </div>
+        <h2 class="section-title">Wedding Details</h2>
+        <div class="kasavu-divider lg">
+          <span class="kd-line"></span>
+          <span class="kd-lotus">&#x2740;</span>
+          <span class="kd-line"></span>
+        </div>
+      </div>
+      <div class="details-grid">
+        <div class="detail-card glass-card reveal" data-animation="fadeUp">
+          <div class="detail-icon">&#x1F4C5;</div>
+          <h3 class="detail-label">Date</h3>
+          <p class="detail-value">Sunday, 30th August 2026</p>
+        </div>
+        <div class="detail-card glass-card reveal" data-animation="fadeUp" data-delay="150">
+          <div class="detail-icon">&#x1F552;</div>
+          <h3 class="detail-label">Muhurtham</h3>
+          <p class="detail-value">10.00 AM - 10.45 AM</p>
+        </div>
+        <div class="detail-card glass-card reveal" data-animation="fadeUp" data-delay="300">
+          <div class="detail-icon">&#x1F4CD;</div>
+          <h3 class="detail-label">Venue</h3>
+          <p class="detail-value">Shri Puthippara Bagavathy Temple, Edathala</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PHOTO GALLERY ===== -->
+    <section id="gallery" class="section gallery-section">
+      <div class="section-bg-decor">
+        <div class="bg-lotus bg-lotus-1">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-2">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-3">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-4">&#x2740;</div>
+        <div class="bg-paisley bg-paisley-1"></div>
+        <div class="bg-paisley bg-paisley-2"></div>
+        <div class="bg-mandala bg-mandala-1"></div>
+        <div class="bg-lotus-outline" style="top:5%;left:50%;transform:translateX(-50%);"></div>
+        <div class="corner-floral corner-floral-tl"></div>
+        <div class="corner-floral corner-floral-tr"></div>
+        <div class="corner-floral corner-floral-bl"></div>
+        <div class="corner-floral corner-floral-br"></div>
+        <div class="bg-vine bg-vine-left"></div>
+        <div class="bg-vine bg-vine-right"></div>
+        <div class="bg-geometric"></div>
+      </div>
+      <div class="section-glow"></div>
+      <div class="section-header reveal" data-animation="fadeUp">
+        <div class="kasavu-divider lg">
+          <span class="kd-line"></span>
+          <span class="kd-lotus">&#x2740;</span>
+          <span class="kd-line"></span>
+        </div>
+        <h2 class="section-title">Our Moments</h2>
+        <div class="kasavu-divider lg">
+          <span class="kd-line"></span>
+          <span class="kd-lotus">&#x2740;</span>
+          <span class="kd-line"></span>
+        </div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gi-wide reveal glass-card" data-animation="zoomIn">
+          <div class="gallery-frame">
+            <img src="gallery-1.jpeg" alt="Wedding Photo 1" class="gallery-img"/>
+          </div>
+        </div>
+        <div class="gallery-item reveal glass-card" data-animation="zoomIn" data-delay="100">
+          <div class="gallery-frame">
+            <img src="gallery-2.jpeg" alt="Wedding Photo 2" class="gallery-img"/>
+          </div>
+        </div>
+        <div class="gallery-item reveal glass-card" data-animation="zoomIn" data-delay="200">
+          <div class="gallery-frame">
+            <img src="gallery-3.jpeg" alt="Wedding Photo 3" class="gallery-img"/>
+          </div>
+        </div>
+        <div class="gallery-item reveal glass-card" data-animation="zoomIn" data-delay="250">
+          <div class="gallery-frame">
+            <img src="gallery-4.jpeg" alt="Wedding Photo 4" class="gallery-img"/>
+          </div>
+        </div>
+      </div>
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox hidden">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="">
+      </div>
+    </section>
+
+    <!-- ===== VENUE ===== -->
+    <section id="venue" class="section venue-section">
+      <div class="section-bg-decor">
+        <div class="bg-lotus bg-lotus-1">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-2">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-3">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-4">&#x2740;</div>
+        <div class="bg-paisley bg-paisley-1"></div>
+        <div class="bg-paisley bg-paisley-2"></div>
+        <div class="bg-mandala bg-mandala-2"></div>
+        <div class="bg-lotus-outline" style="top:5%;left:50%;transform:translateX(-50%);"></div>
+        <div class="corner-floral corner-floral-tl"></div>
+        <div class="corner-floral corner-floral-tr"></div>
+        <div class="corner-floral corner-floral-bl"></div>
+        <div class="corner-floral corner-floral-br"></div>
+        <div class="bg-peacock bg-peacock-2"></div>
+        <div class="bg-geometric"></div>
+      </div>
+      <div class="section-glow"></div>
+      <div class="section-header reveal" data-animation="fadeUp">
+        <div class="kasavu-divider lg">
+          <span class="kd-line"></span>
+          <span class="kd-lotus">&#x2740;</span>
+          <span class="kd-line"></span>
+        </div>
+        <h2 class="section-title">The Venue</h2>
+        <div class="kasavu-divider lg">
+          <span class="kd-line"></span>
+          <span class="kd-lotus">&#x2740;</span>
+          <span class="kd-line"></span>
+        </div>
+      </div>
+      <div class="venue-map-wrapper reveal glass-card" data-animation="fadeUp">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.0!2d76.3!3d10.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDAwJzAwLjAiTiA3NsKwMTgnMDAuMCJF!5e0!3m2!1sen!2sin!4v1" 
+          width="100%" 
+          height="300" 
+          style="border:0; border-radius: 16px;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <div class="venue-info">
+          <h3 class="venue-name">Shri Puthippara Bagavathy Temple</h3>
+          <p class="venue-address">Edathala, Kerala</p>
+          <a id="venue-map-link" href="https://www.google.com/maps/search/Shri+Puthippara+Bagavathy+Temple+Edathala" target="_blank" rel="noopener noreferrer" class="btn-maps">
+            <span>&#x1F4CD;</span>
+            <span>View Location</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BLESSINGS ===== -->
+    <section id="blessings" class="section blessings-section">
+      <div class="section-bg-decor">
+        <div class="bg-lotus bg-lotus-1">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-2">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-3">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-4">&#x2740;</div>
+        <div class="bg-paisley bg-paisley-1"></div>
+        <div class="bg-paisley bg-paisley-2"></div>
+        <div class="bg-lotus-outline" style="top:50%;left:50%;transform:translate(-50%,-50%);"></div>
+        <div class="corner-floral corner-floral-tl"></div>
+        <div class="corner-floral corner-floral-tr"></div>
+        <div class="corner-floral corner-floral-bl"></div>
+        <div class="corner-floral corner-floral-br"></div>
+      </div>
+      <div class="section-glow"></div>
+      <div class="blessings-content reveal glass-card" data-animation="fadeUp">
+        <div class="blessings-lotus">&#x2740; &#x2740; &#x2740;</div>
+        <blockquote class="blessings-quote">
+          Your blessings, love, and presence will make our celebration truly complete.<br><br>
+          We look forward to creating unforgettable memories together.
+        </blockquote>
+        <div class="blessings-lotus">&#x2740; &#x2740; &#x2740;</div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="footer" class="section footer-section">
+      <div class="section-bg-decor">
+        <div class="bg-lotus bg-lotus-1">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-2">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-3">&#x2740;</div>
+        <div class="bg-lotus bg-lotus-4">&#x2740;</div>
+        <div class="bg-paisley bg-paisley-1"></div>
+        <div class="bg-paisley bg-paisley-2"></div>
+        <div class="bg-mandala bg-mandala-1"></div>
+        <div class="corner-floral corner-floral-tl"></div>
+        <div class="corner-floral corner-floral-tr"></div>
+        <div class="corner-floral corner-floral-bl"></div>
+        <div class="corner-floral corner-floral-br"></div>
+        <div class="bg-vine bg-vine-left"></div>
+        <div class="bg-vine bg-vine-right"></div>
+        <div class="bg-geometric"></div>
+      </div>
+      <div class="footer-content reveal" data-animation="fadeUp">
+        <p class="footer-label">With Love</p>
+
+        <!-- Footer Lamp -->
+        <div class="footer-lamp">
+          <div class="fl-flame"></div>
+          <div class="fl-glow"></div>
+          <div class="fl-body">
+            <div class="fl-bowl"></div>
+            <div class="fl-stem"></div>
+            <div class="fl-base"></div>
+          </div>
+        </div>
+
+        <div class="footer-names">
+          <span class="footer-bride">Anjana</span>
+          <span class="footer-heart">&#9825;</span>
+          <span class="footer-groom">Ashin</span>
+        </div>
+
+        <div class="footer-date">30 &bull; 08 &bull; 2026</div>
+
+        <!-- Traditional Kerala Divider -->
+        <div class="kerala-divider">
+          <span class="kd-segment"></span>
+          <span class="kd-diamond">&#x2740;</span>
+          <span class="kd-segment"></span>
+          <span class="kd-diamond">&#x2740;</span>
+          <span class="kd-segment"></span>
+        </div>
+
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="script.js?v=20260716210808"></script>
+</body>
+</html>
+
+
