@@ -3043,6 +3043,38 @@ body::after {
   line-height: 1.6;
 }
 
+.locket-chain-design {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+.locket-chain-svg {
+  width: 160px;
+  height: 45px;
+}
+
+.locket-pendant {
+  animation: locketGlow 2.5s ease-in-out infinite;
+}
+
+@keyframes locketGlow {
+  0%, 100% { filter: drop-shadow(0 0 2px rgba(201,162,39,0.3)); }
+  50% { filter: drop-shadow(0 0 6px rgba(244,211,94,0.6)); }
+}
+
+.temple-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.temple-svg {
+  width: 55px;
+  height: 45px;
+  filter: drop-shadow(0 0 3px rgba(201,162,39,0.3));
+}
+
 .countdown-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

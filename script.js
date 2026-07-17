@@ -11,9 +11,9 @@ const CONFIG = {
   groom: 'Ashin',
   weddingDate: '2026-08-30T10:00:00',
   venue: {
-    name: 'Shri Puthippara Bagavathy Temple',
-    address: 'Edathala, Kerala',
-    mapsUrl: 'https://www.google.com/maps/search/Shri+Puthippara+Bagavathy+Temple+Edathala'
+    name: 'Shri Kunjattukaavu Bagavathy Temple Auditorium',
+    address: 'Pukkattupady, Kerala',
+    mapsUrl: 'https://www.google.com/maps/search/Shri+Kunjattukaavu+Bagavathy+Temple+Auditorium+Pukkattupady'
   },
   musicUrl: 'wedding-music.mp3',
   musicVolume: 0.15,
